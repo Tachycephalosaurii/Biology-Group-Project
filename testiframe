@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>iframes are cool ;)</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <script>
+  var a = document.createElement("iframe");
+  a.src = "https://www.khanacademy.org/cs/i/6197406364696576/embedded";
+  a.frameborder = "0";
+  a.scrolling = "no";
+  a.style.border = "0px";
+  a.width = window.innerWidth + "px";
+  a.height = window.innerHeight + "px";
+  document.body.appendChild(a);
+  </script>
+  </body>
+</html>
